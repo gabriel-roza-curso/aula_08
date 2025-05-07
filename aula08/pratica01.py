@@ -9,4 +9,4 @@ produto.pop("estoque")
 produto['preco'] = 4000.00
 
 print(produto['nome'])
-print('R$', produto['preco'])
+print(f"R$ {produto['preco']}")
